@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; position: fixed; bottom: 10px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media screen and (max-width: 375px) {
+      .container{
+        width:350px;
+      }
+    }
+    
+    .figtree-500 {
+      font-family: "Figtree", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+    }
+
+    .figtree-800 {
+      font-family: "Figtree", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 800;
+      font-style: normal;
+    }
+
+    body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: hsl(47, 88%, 63%);
+    }
+
+    p{
+      font-size: 16;
+    }
+
+    .container{
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      height: auto;
+      background-color: hsl(0, 0%, 100%);
+      border: 1px solid black;
+      border-radius: 5%;
+      padding: 20px;
+      box-shadow: 10px 10px;
+    }
+
+    .images{
+      border-radius: 5%;
+      width: 300px;
+      margin-bottom: 10px;
+    }
+
+    .title{
+      background: hsl(47, 88%, 63%);
+      padding: 10px;
+      margin-top: 10px;
+      width: 80px;
+      border-radius: 10%;
+    }
+
+    .font-grey{
+      color: hsl(0, 0%, 42%);
+    }
+  </style>
+</head>
+<body>
+  <div class="container figtree-500">
+    <img src="./assets/images/illustration-article.svg" alt="illustration-article" class="images"/>
+    
+    <div class="title">
+      Learning
+    </div>
+
+    <p>
+      Published 21 Dec 2023
+    </p>
+
+    <h2 class="figtree-800">
+      HTML & CSS foundations
+    </h2>
+
+    <p class="font-grey">
+      These languages are the backbone of every website, defining structure, content, and presentation.
+    </p>
+
+    <p class="figtree-500">
+      Greg Hooper
+    </p>
+  </div>
+
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://https://switzer-learn.github.io/ResumeWebsite/">Willy Candra</a>.
+  </div>
+</body>
+</html>
